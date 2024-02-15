@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+.logo{
+    font-size: x-large;
+}
+.nav-itmes{
+    /* margin-top: 3px; */
+}
+.nav-itmes a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    margin-left: 10px;
+    padding: 15px;
+}
+.nav-itmes a:hover{
+    background-color: antiquewhite;
+}
+
+/* section-1 */
+.section-1 table{
+    width: 100%;
+    height: 80vh;
+    background-color: gainsboro;
+}
+.section-1 table, tr, td{
+    /* border: 1px solid black; */
+}
+.section-1 td{
+    width: 50%;
+    height: 100%;
+}
+.section-1-image img{
+    width: 100%;
+    height: 100%;
+}
+.section-1-text{
+    padding: 40px;
+    /* word-spacing: 2px; */
+    text-align: justify;
+}
+button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+/* section-2 */
+.section-2 table{
+    width: 100%;
+}
+.section-2 td{
+    width: 24%;
+}
+.section-2 p::first-letter{
+    font-size: 100px;
+}
+.section-2 td{
+    text-align: justify;
+    padding: 20px;
+}
+.section-2-heading{
+    font-size: xx-large;
+    text-align: center;
+    margin: 30px 0px;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* section-3 */
+.section-3 table{
+    width: 100%;
+}
+.section-3 td{
+    width: 33%;
+}
+.section-3 td{
+    text-align: justify;
+    padding: 30px;
+}
+.section-3{
+    margin-top: 20px;
+}
+td{
+    box-shadow: 0px 0px 1px black;
+    border-collapse: collapse;
+}
+.section-3 table, .section-2 table{
+    border-spacing: 30px;
+}
+.section-3 p::first-line{
+    font-size: xx-large;
+}
+
+/* general */
+.text-decoration{
+    text-decoration:overline
+}
+.font-weight{
+    font-weight: bolder;
+}
+.text-transform{
+    text-transform:uppercase;
+}
+.font-style{
+    font-style: italic;
+}
+.background-image{
+    background-image: url('images/Land\ Rover\ Defender\ Dodge\ Challenger\ Hellcat\ Urus\ Ferrari\ Purosangue\ Alloy\ Diecast\ Models.jpg');
+    color: white;
+}
+.background-color{
+    background-color: gainsboro;
+}
